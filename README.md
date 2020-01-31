@@ -3,6 +3,6 @@
     <img src="https://img.shields.io/nuget/v/DickinsonBros.Redactor.Abstractions">
 </a>
 
-Abstractions For DickinsonBros.Redactor 
+Abstractions For <a href="https://github.com/msdickinson/DickinsonBros.Redactor">DickinsonBros.Redactor</a>
 
-https://github.com/msdickinson/DickinsonBros.Redactor
+<a href="https://dev.azure.com/marksamdickinson/DickinsonBros/_build?definitionScope=%5CDickinsonBros.Redactor.Abstractions">Builds</a>
