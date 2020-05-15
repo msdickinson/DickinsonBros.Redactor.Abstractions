@@ -4,10 +4,7 @@ pr:
     branches:
          include:
          - master
-    paths:
-          exclude:
-          - README.md
-          - Scripts/*
+
 pool:
  vmImage: 'windows-latest'
 
@@ -19,6 +16,8 @@ steps:
   inputs:
     packageType: 'sdk'
     version: '3.1.101'
-- script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
-
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: '**/*.csproj'
+    configuration: '$(buildConfiguration)'
