@@ -5,21 +5,21 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Scripts", "3 Scripts", "{E279B7B2-4B7E-4165-9854-009C341D930A}"
 	ProjectSection(SolutionItems) = preProject
-		Scripts\Prerelease.DickinsonBros.Redactor.Abstractions.ps1 = Scripts\Prerelease.DickinsonBros.Redactor.Abstractions.ps1
+		Scripts\PackagePrerelease.ps1 = Scripts\PackagePrerelease.ps1
 		Scripts\Publish.yml = Scripts\Publish.yml
 		Scripts\Test.yml = Scripts\Test.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Tests", "2 Tests", "{7C33D61D-D0DE-4734-BFBA-1EF37BC72B28}"
 	ProjectSection(SolutionItems) = preProject
-		Tests\DickinsonBros.Redactor.Abstractions.runsettings = Tests\DickinsonBros.Redactor.Abstractions.runsettings
+		Tests\CodeCoverage.runsettings = Tests\CodeCoverage.runsettings
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Source", "1 Source", "{BB702DEB-93FD-487F-BFD8-3B21B856A048}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.Redactor.Abstractions", "Source\DickinsonBros.Redactor.Abstractions\DickinsonBros.Redactor.Abstractions.csproj", "{4DABD4D3-BD7F-45C6-9E35-3AF58EECC0BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Redactor.Abstractions.Tests", "Tests\DickinsonBros.Redactor.Abstractions.Tests\DickinsonBros.Redactor.Abstractions.Tests.csproj", "{E8183AFC-8FA6-4ADB-8725-DF9A54856216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.Redactor.Abstractions.Tests", "Tests\DickinsonBros.Redactor.Abstractions.Tests\DickinsonBros.Redactor.Abstractions.Tests.csproj", "{E8183AFC-8FA6-4ADB-8725-DF9A54856216}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
